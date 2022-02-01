@@ -20,3 +20,6 @@ function scrollFunction() {
     document.getElementById("goTop").style.display='none';
   }
 }
+nextBtn.addEventListener('click', function(){
+  hero.classList.add('none')
+})
