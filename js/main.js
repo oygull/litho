@@ -2,7 +2,8 @@ let headerBtn = document.getElementById('headerBtn');
 let modalBox = document.getElementById('modalBox');
 let closeBtn = document.getElementById('closeBtn');
 let nextBtn = document.getElementById('next');
-let hero = document.getElementById('hero1');
+let prevBtn = document.getElementById('previous');
+let hero = document.getElementById('hero2');
 
 headerBtn.addEventListener('click',function(){
   modalBox.classList.add('show')
@@ -22,4 +23,7 @@ function scrollFunction() {
 }
 nextBtn.addEventListener('click', function(){
   hero.classList.add('none')
+})
+prevBtn.addEventListener('click', function(){
+  hero.classList.remove('none')
 })

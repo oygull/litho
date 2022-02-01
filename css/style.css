@@ -196,7 +196,7 @@ body::-webkit-scrollbar-thumb {
 .hero2__inner{
   width: 100%;
   height: 560px;
-  background-image: url('../images/heroimg-2.jpeg');
+  background-image: url('../images/interior.jpg');
   background-size: cover;
   position: relative;
 }
@@ -245,9 +245,10 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   top: 100px;
   left: 85px;
+  display: none;
 }
 .none{
-  display: none;
+  display: block;
 }
 @keyframes num {
   0%{
