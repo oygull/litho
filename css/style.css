@@ -243,8 +243,8 @@ body::-webkit-scrollbar-thumb {
 }
 .hero2{
   position: absolute;
-  top: 100px;
-  left: 85px;
+  top: 12%;
+  left: 6%;
   display: none;
 }
 .none{
